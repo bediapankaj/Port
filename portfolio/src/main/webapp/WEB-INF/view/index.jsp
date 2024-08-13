@@ -19,9 +19,7 @@
         <div class="menu-toggle" id="mobile-menu">
             <i class="fas fa-bars"></i>
         </div>
-        <div class="menu-toggles" id="mobile-menus">
-             <i class="fa-solid fa-xmark"></i>
-        </div>
+        
         <ul class="nav-list">
             <li><a href="#home">Home</a></li>
             <li><a href="#professional">Professional</a></li>               
@@ -277,13 +275,13 @@
         <div class="contact-info" data-aos="fade-right">
             <h2>Contact</h2>
             <p>I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.</p>
-            <p><strong>Email:</strong> info@mysite.com</p>
-            <p><strong>Tel:</strong> 1-800-000-0000</p>
+            <p><strong>Email:</strong> bediapankaj359@gmail.com</p>
+            <p><strong>Phone:</strong> 9693304842</p>
             <ul class="socials">
-                <li><a href="#"><i class="fa-brands fa-facebook" data-aos="zoom-in"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter" data-aos="zoom-in" data-aos-delay="100"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin" data-aos="zoom-in" data-aos-delay="200"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram" data-aos="zoom-in" data-aos-delay="300"></i></a></li>
+                <li><a href="https://www.facebook.com/pankaj.bedia.10"><i class="fa-brands fa-facebook" data-aos="zoom-in"></i></a></li>
+                <li><a href="https://x.com/pankajbedia262"><i class="fa-brands fa-twitter" data-aos="zoom-in" data-aos-delay="100"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/pankaj-bedia-838582242/"><i class="fa-brands fa-linkedin" data-aos="zoom-in" data-aos-delay="200"></i></a></li>
+                <li><a href="https://www.instagram.com/bediapankaj359/?hl=en"><i class="fa-brands fa-instagram" data-aos="zoom-in" data-aos-delay="300"></i></a></li>
             </ul>
         </div>
         <form id="contactForm" action="submit_form.php" method="post" data-aos="fade-left">

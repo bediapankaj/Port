@@ -11,7 +11,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Animate progress bars on scroll
+//-------------------------- Animate progress bars on scroll skills--------------------------------
 document.querySelectorAll('.progressbar__svg-circle1').forEach((circle, index) => {
   const radius = circle.r.baseVal.value;
   const circumference = 2 * Math.PI * radius;
@@ -127,22 +127,13 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
  /**---------------------------------mobile menu----------------------------------------------------- */
 document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.getElementById('mobile-menu');
-    const menuToggles = document.getElementById('mobile-menus');
+    const menuToggle = document.getElementById('mobile-menu');    
     const navList = document.querySelector('.nav-list');
-
     menuToggle.addEventListener('click', function() {
-        navList.classList.toggle('active');
-        menuToggles.classList.toggle('active');
+        navList.classList.toggle('active');        
         menuToggle.classList.toggle('active');
     });
-
-    menuToggles.addEventListener('click', function() {
-        navList.classList.toggle('active');
-        menuToggles.classList.toggle('active');
-        menuToggle.classList.toggle('active');
-    });
-});
+ });
 
 /** -----------------------------------download Resume-------------------------------------------------- */
 document.getElementById("downloadResume").addEventListener("click", function() {
